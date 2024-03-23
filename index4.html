@@ -53,9 +53,38 @@
           <option name="November" value="Nov">November</option>
           <option name="December" value="Dec">December</option>
         </select>
-        <div class="d-flex align-items-center mb-3 gap-3 pointer">
-          <h2 class="mb-0">Vishnu Bishnoi (371)</h2>
-          <img class="profile" src="./Assets/images/profile.png" alt="" />
+        <div
+          class="d-flex flex-column position-relative align-items-center mb-3 gap-3 pointer"
+        >
+          <!-- <h2 class="mb-0">Vishnu Bishnoi (371)</h2> -->
+
+          <img
+            id="profileImage"
+            class="profile"
+            src="./Assets/images/profile.png"
+            alt="Profile Picture"
+          />
+          <div
+            id="profileCard"
+            class="card position-absolute top-100"
+            style="display: none"
+          >
+            <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img
+                  class="profile mx-auto"
+                  src="./Assets/images/1680082743634.jpg"
+                  alt="Profile Picture"
+                />
+              </div>
+              <h3 class="text-center">vishnubishnoi0371</h3>
+              <a
+                href="mailto:vishnukhicher49@gmail.com"
+                class="text-center fs-6 fw-bold"
+                >vishnukhicher49@gmail.com</a
+              >
+            </div>
+          </div>
         </div>
       </div>
       <div id="tasksContainer"></div>
